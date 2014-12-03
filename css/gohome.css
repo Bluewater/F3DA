@@ -1,0 +1,66 @@
+/* Reset */
+header, body, article {
+	display : block;
+}
+html, body, header, article, h1, h2, h3, p, at {
+	border : 0;
+	outline : 0;
+	margin-top: 5;
+	padding : 5;
+	font-family:"Calibri",Georgia;
+}
+
+/* Basic parts */
+header {
+    line-height: 24px;
+    font-size: 11px;
+    /*background: #fff;
+    background: rgba(255, 255, 255, 0.5);*/
+	background-color: #336699;
+	background-image: url(_img/bg.jpg);
+	background-repeat:repeat;
+	margin-top:0px;
+	text-align: center;
+	position: relative;
+}
+
+body {
+	background : #FFF;
+	color : #444;
+	background-image:url('www.sandin.global/img/.png');
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-attachment:fixed;
+}
+
+	a:link {
+	color: #421C52;
+	text-decoration: none;
+	} 
+	a:visited {
+	color: #421C52;
+	} 
+	a:hover {
+	color: #BDAEC6;
+	} 
+	a:active {
+	color: #9C8AA5;
+	}
+
+H1, H3, H4, H5, H6 {
+	color : #333;
+	font-weight : bold;
+	margin : 0 0 0px;
+	padding : 0 0 0 0px;
+	}
+	H1 {
+		background : url(../_img/ai4.png) no-repeat 0 6px;
+		font-size : 22px;
+	}
+	H2 {
+		font-size : 20px;
+		margin : 0 0 20px 0;
+	}
+	H3, H4, H5, H6 {
+		font-size : 14px;
+	}
