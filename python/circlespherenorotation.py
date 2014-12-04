@@ -10,8 +10,8 @@ import math #trigonometric functions
 
 PARAM_STARTINGLONG = 'startinglongitudedegrees'
 PARAM_TIMET = 'time_t'
-
-ORDERED_PARAMETERS = [None, PARAM_TIMET, PARAM_STARTINGLONG]
+PARAM_INCLINATION = 'inclination'
+ORDERED_PARAMETERS = [None, PARAM_TIMET, PARAM_STARTINGLONG, PARAM_INCLINATION]
 PERIOD_DAYS = 0.5
 
 def getlongitude(timedays,offsetdegrees,perioddays):
