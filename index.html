@@ -1,0 +1,101 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="www.sandin.global" />
+<link rel="shortcut icon" href="./img/favicon.ico">
+<title>sandin.gl</title>
+<style type="text/css"></style>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".btn-slide").click(function(){
+		$("#panel").slideToggle("slow");
+		$(this).toggleClass("active"); return false;
+	});
+});
+</script>
+
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 0;
+	font: 100% "Calibri",Avenir;
+}
+p.main {
+    color:red;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+a:focus {
+	outline: none;
+}
+#panel {
+	background: #F2F2F2;
+	position:absolute;
+	width: 330px;
+	height: 100% auto;
+	margin: 0 auto;
+	padding: 10px 10px 10px 10px;
+	display: none;
+	font: 120%/120% "Calibri",Avenir;
+}
+.slide {
+	width: 350px;
+	margin: 0;
+	padding: 0;
+	border-top: solid 4px #394a58;
+	background: url(./img/gohome_slidedown.gif) no-repeat right top;
+}
+.btn-slide {
+	background: url(./img/gohome_ver-arrows.gif) no-repeat right -50px;
+	text-align: left 300px;
+	width: 144px;
+	height: 28px;
+	padding: 5px 10px 0px 205px;
+	margin: 0 auto;
+	display: block;
+	font: bold 120%/120% "Calibri",Avenir;
+	color: #fff;
+	text-decoration: none;
+}
+.active {
+	background-position: right 12px;
+}
+</style>
+</head>
+
+<header>
+<div id="panel">
+	<!--update sandin.gl content-->
+	1something here...</br>
+	something here...</br>
+	something here...</br>
+	something here...</br>
+	5something here...</br>
+	something here...</br>
+	something here...</br>
+	something here...</br>
+	something here...</br>
+	10something here...</br>
+	something here...</br>
+	something here...</br>
+	something here...</br>
+	something here...</br>
+	15something here...</br>
+	something here...</br>
+	something here...</br>
+	something here...</br>
+	something here...</br>
+	20something here...
+	</div>
+	
+	<p class="slide"><a href="#" class="btn-slide">sandin.global</a></p>
+</header>
+
+<body>
+<p class="main">Here is body.</p>
+</body>
+</html>
